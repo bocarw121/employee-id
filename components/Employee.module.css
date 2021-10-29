@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid black;
+  transition: all 0.5s ease-in-out;
+  width: 14rem;
+  height: auto;
+  text-align: center;
+  margin: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(8, 54, 155, 0.5);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44, 44, 228);
+  border-bottom: 1px solid black;
+  height: auto;
+  padding: 0 0.7rem;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.cardHeader img {
+  border-radius: 50%;
+}
+
+.cardHeader p {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardBody {
+  border-bottom: 1px solid black;
+  height: auto;
+  padding: 0.2rem;
+
+  color: black;
+}
